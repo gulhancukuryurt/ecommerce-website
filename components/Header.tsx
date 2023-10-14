@@ -4,7 +4,7 @@ import headerimg from "../img/header.webp";
 
 function Header() {
   return (
-    <div className="flex flex-row bg-slate-200 ">
+    <div className="flex flex-row bg-slate-200 items-center justify-center">
       <div className="flex items-center mt-6">
         <Image src={headerimg} alt="header" width={500} height={150} />
       </div>
@@ -13,7 +13,7 @@ function Header() {
           Get up to 30% Off <br />
           New Arrivals
         </p>
-        <button className="w-48 h-10  bg-violet-500 tracking-wider">Shop Now</button>
+        <button className="w-48 h-10  bg-violet-500 tracking-wider transition duration-500 ease-in hover:bg-red-700 hover:text-white">Shop Now</button>
       </div>
     </div>
   );
