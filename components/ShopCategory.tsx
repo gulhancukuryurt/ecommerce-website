@@ -12,7 +12,7 @@ function ShopCategory() {
           <div className="group">
             <Image src={items1} alt="item1" width={300} height={200}></Image>
             <div className="flex flex-col relative -top-12 bg-gray-400 p-2 ">
-            <span className="text-center font-bold text-white p-2 text-lg whitespace-pre-line tracking-widest group-hover:-translate-y-2">Men's Fashion</span>
+            <span className="text-center font-bold text-white p-2 text-lg tracking-widest group-hover:-translate-y-2">Men's Fashion</span>
             <button className="text-white opacity-0 group-hover:opacity-100 transition duration-300 ease-in group-hover:-translate-y-4 hover:text-red-200 hover:tracking-widest">Shop Now</button>
           </div>
           </div>
@@ -20,14 +20,14 @@ function ShopCategory() {
         <div className="group">
           <Image src={items2} alt="item1" width={300} height={200}></Image>
           <div className="flex flex-col relative -top-12 bg-gray-400 p-2 ">
-            <span className="text-center font-bold text-white p-2 text-lg whitespace-pre-line tracking-widest group-hover:-translate-y-2">Accessories</span>
+            <span className="text-center font-bold text-white p-2 text-lg tracking-widest group-hover:-translate-y-2">Accessories</span>
             <button className="text-white opacity-0 group-hover:opacity-100 transition duration-300 ease-in group-hover:-translate-y-4 hover:text-red-200 hover:tracking-widest">Shop Now</button>
           </div>
         </div>
         <div className="group">
           <Image src={items3} alt="item1" width={300} height={200}></Image>
           <div className="flex flex-col relative -top-12 bg-gray-400 p-2 ">
-            <span className="text-center font-bold text-white p-2 text-lg whitespace-pre-line tracking-widest group-hover:-translate-y-2">Women's Fashion</span>
+            <span className="text-center font-bold text-white p-2 text-lg tracking-widest group-hover:-translate-y-2">Women's Fashion</span>
             <button className="text-white opacity-0 group-hover:opacity-100 transition duration-300 ease-in group-hover:-translate-y-4 hover:text-red-200 hover:tracking-widest">Shop Now</button>
           </div>
         </div>
