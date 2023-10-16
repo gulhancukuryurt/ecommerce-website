@@ -6,8 +6,8 @@ import Image from "next/image";
 
 function ShopCategory() {
   return (
-    <div className="flex justify-center align-top">
-      <div className="flex absolute flex-row gap-8 mt-4 max-md:flex-col max-md:gap-0.5">
+    <div className="flex justify-center align-top mt-4">
+      <div className="flex flex-row gap-8 max-md:flex-col max-md:gap-0.5">
         <div>
           <div className="group">
             <Image src={items1} alt="item1" width={300} height={200}></Image>
